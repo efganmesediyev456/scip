@@ -1,0 +1,16 @@
+{
+    "The :attribute must contain at least one letter.": "The :attribute must contain at least one letter.",
+    "The :attribute must contain at least one number.": "The :attribute must contain at least one number.",
+    "The :attribute must contain at least one symbol.": "The :attribute must contain at least one symbol.",
+    "The :attribute must contain at least one uppercase and one lowercase letter.": "The :attribute must contain at least one uppercase and one lowercase letter.",
+    "The given :attribute has appeared in a data leak. Please choose a different :attribute.": "The given :attribute has appeared in a data leak. Please choose a different :attribute.",
+    "recaptcha-failed": "Please prove that you aren't bot.",
+    "wrong-two-factor-code": "Authentication PIN is incorrect.",
+    "wait-previous-otp": "Please wait previous OTP to expire.",
+    "otp-incorrect": "Please enter valid OTP code",
+    "invalid-login-code": "Your login code is invalid",
+    "wrong-current-password": "Your current password is not match",
+    "the-same-current-password": "Your new password is the same with old one",
+    "no-session-exists": "Not found any active session except current",
+    "you_cant_edit_yourself": "You can't edit yourself"
+}

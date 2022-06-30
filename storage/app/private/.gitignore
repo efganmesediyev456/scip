@@ -1,0 +1,4 @@
+*
+!.gitignore
+!jwt
+!jwt.pub

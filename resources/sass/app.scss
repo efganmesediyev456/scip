@@ -1,0 +1,136 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/utilities/api";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/forms/labels";
+@import "~bootstrap/scss/forms/form-text";
+@import "~bootstrap/scss/forms/form-control";
+@import "~bootstrap/scss/forms/form-select";
+@import "~bootstrap/scss/forms/form-check";
+@import "~bootstrap/scss/forms/form-range";
+@import "~bootstrap/scss/forms/floating-labels";
+@import "~bootstrap/scss/forms/input-group";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/toasts";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/spinners";
+@import "~bootstrap/scss/pagination";
+
+// Bootstrap Icons
+@import "~bootstrap-icons/font/bootstrap-icons.scss";
+
+// Tagin
+@import "~tagin/dist/tagin.css";
+
+.nice-select-dropdown{
+    ul {
+        margin-bottom: 0;
+    }
+}
+
+.card-header{
+    height: 70px;
+}
+
+hr{
+    opacity: unset;
+}
+
+img{
+    -webkit-user-drag: none;
+}
+
+@mixin nth-children($points...) {
+    @each $point in $points {
+        &:nth-child(#{$point}) {
+            @content;
+        }
+    }
+}
+
+.text-input__loading {
+    height: 75px;
+    border-radius: 4px;
+    width: 100%;
+
+    &--line {
+        height: 10px;
+        margin: 10px;
+        animation: pulse 1s infinite ease-in-out;
+    }
+
+    div {
+        @include nth-children(1, 5, 9) {
+            width: 150px;
+        }
+        @include nth-children(2, 6, 10) {
+            width: 250px;
+        }
+        @include nth-children(3, 7) {
+            width: 50px;
+        }
+        @include nth-children(4, 8) {
+            width: 100px;
+        }
+    }
+}
+
+@keyframes pulse {
+    0% {
+        background-color: rgba(165, 165, 165, 0.1)
+    }
+    50% {
+        background-color: rgba(165, 165, 165, 0.3)
+    }
+    100% {
+        background-color: rgba(165, 165, 165, 0.1)
+    }
+}
+
+.form-control.tagin{
+    display: none;
+}
+
+.tagin-wrapper{
+    .tagin-input{
+        background-color: #F3F7FC;
+    }
+
+    &.focus{
+        background-color: #F3F7FC;
+        .tagin-input{
+            background-color: #F3F7FC;
+        }
+    }
+}
+
+tbody{
+    tr{
+        td{
+            i.bi{
+                font-size: 15px;
+            }
+        }
+    }
+}

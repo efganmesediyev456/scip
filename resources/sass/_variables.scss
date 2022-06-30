@@ -1,0 +1,45 @@
+// Colors
+$body-bg: #F3F7FC;
+$divider-bg: #eff2f5;
+$black: #181c32;
+$body-color: #181c32;
+
+// Typography
+$font-family-sans-serif: 'Poppins', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-size-base: 0.85rem;
+$line-height-base: 1.6;
+$h1-font-size: 1rem;
+$font-weight-bold: 600;
+//$font-size-sm: 5px;
+
+// Dropdown
+$dropdown-border-color: transparent;
+$dropdown-divider-bg: $divider-bg;
+
+// Card
+$card-border-width: 1px;
+$card-box-shadow: 0 0 20px 0 rgb(76 87 125 / 10%);
+$card-cap-bg: white;
+$card-border-color: $divider-bg;
+$card-spacer-x: 2.25rem;
+$card-spacer-y: 2.25rem;
+$card-border-radius: .475rem;
+
+// Modal
+$modal-header-padding-y: 1.75rem;
+$modal-header-padding-x: 1.75rem;
+$modal-inner-padding: 1.75rem;
+$modal-header-border-color: $divider-bg;
+$modal-footer-border-color: $divider-bg;
+
+// Table
+$table-cell-padding-y: .5rem;
+$table-cell-padding-x: 1rem;
+$table-cell-padding-y-sm: .5rem;
+$table-cell-vertical-align:   center;
+$table-th-font-weight: 500;
+$table-hover-bg: $divider-bg;
+
+// enabling this will stop HTML to show native validation errors
+// if user's failed input is not in scroll view
+$enable-smooth-scroll: false
